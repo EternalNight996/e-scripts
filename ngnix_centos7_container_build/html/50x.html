@@ -1,0 +1,30 @@
+<!DOCTYPE html5>
+<HTML>
+<HEAD>
+    <head><title>502 Bad Gateway</title></head>>
+</HEAD>
+
+<BODY>
+    <center><h1>502 Bad Gateway</h1></center>
+    <hr><center></center>
+
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+    <center><p>
+        当前访问者IP地址及地址归属：
+        <script>
+            document.write(returnCitySN["cip"] + ',' + returnCitySN["cname"])
+        </script>
+        <br>
+        当前访问者IP：
+        <script>
+            document.write(returnCitySN["cip"])
+        </script>
+        <br>
+        当前访问者归属地：
+        <script>
+            document.write(returnCitySN["cname"])
+        </script>
+    </p></center>
+</BODY>
+
+</HTML>

@@ -1,0 +1,29 @@
+<!DOCTYPE html5>
+<HTML>
+<HEAD>
+    <TITLE>WMI Scripting HTML</TITLE>
+</HEAD>
+
+<BODY>
+    <center><h1>欢迎你的到来</h1></center>
+    <hr>
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+    <center><p>
+        当前访问者IP地址及地址归属：
+        <script>
+            document.write(returnCitySN["cip"] + ',' + returnCitySN["cname"])
+        </script>
+        <br>
+        当前访问者IP：
+        <script>
+            document.write(returnCitySN["cip"])
+        </script>
+        <br>
+        当前访问者归属地：
+        <script>
+            document.write(returnCitySN["cname"])
+        </script>
+    </p></center>
+</BODY>
+
+</HTML>
